@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Health Track - Planos</title>
+    </head>
+    <body id="planotela">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+            <div class="container">
+                <a class="navbar-brand h1 mb-0" href="menu.html">Health Track</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSite">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="inf_corporais.html">Informações Corporais</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="alimentação.html">Alimentação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="atv_fisica.html">Atividade Física</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="Planos.html">Planos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <article class="text-center" style="margin-top: 30px; color: darkred;">
+            <header style="margin-top: 30px; color: darkblue;">
+                <h1>Planos</h1>
+            </header>
+            <h2 style="margin-top: 30px;">Está curtinho o Health Track? Quer adquirir um de nossos planos?</h2>
+            <h3 style="margin-top: 30px;">Junte-se a nós!</h3>
+        </article>
+        <div>
+            <p style="margin-top: 100px;">
+                <h4 class="text-center" style="color: goldenrod;"> Planos Health Track: </h4>
+            </p>
+        </div>
+        <button class="collapsible text-center">PLANO A</button>
+        <div class="content">
+            <p style="margin-bottom: 90px;">Texto A </p>
+        </div>
+        <button class="collapsible text-center" >PLANO B</button>
+        <div class="content">
+            <p style="margin-bottom: 90px;">texto B</p>
+        </div>
+        <button class="collapsible text-center">PLANO C</button>
+        <div class="content">
+            <p style="margin-bottom: 90px;">Texto C</p>
+        </div>
+        <div class="row" style="margin-top: 60px;">
+            <div class="col-75">
+                <div class="container1">
+                    <form action="/action_page.php">
+
+                        <div class="row">
+                            <div class="col-50">
+                                <h3>Pagamento</h3>
+                                <label for="fname"><i class="fa fa-user"></i> Nome Completo</label>
+                                <input type="text1" id="nome" name="nome" placeholder="André Maziero">
+                                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                                <input type="text1" id="email" name="email" placeholder="helthtrack@gmail.com">
+                                <label for="adr"><i class="fa fa-address-card-o"></i> Endereço</label>
+                                <input type="text1" id="end" name="edereco" placeholder="Av. do Estado 65">
+                                <label for="city"><i class="fa fa-institution"></i> Cidade</label>
+                                <input type="text1" id="cidade" name="cidade" placeholder="São Paulo">
+                                <div class="row">
+                                    <div class="col-50">
+                                        <label for="state">Estado</label>
+                                        <input type="text1" id="estado" name="estado" placeholder="SP">
+                                    </div>
+                                    <div class="col-50">
+                                        <label for="zip">Cep</label>
+                                        <input type="text1" id="cep" name="Cep" placeholder="03421-000">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-50">
+                                <h3>Pagamento</h3>
+                                <label for="fname">Aceitamos os cartões</label>
+                                <div class="icon-container">
+                                </div>
+                                <label for="cnome">Nome cartão</label>
+                                <input type="text1" id="cnome" name="nomecartao" placeholder="Andre Maziero">
+                                <label for="ccnum">Número do Cartão</label>
+                                <input type="text1" id="ccnum" name="cartaonumero" placeholder="1111-2222-3333-4444">
+                                <label for="valdmes">Validade(Mês)</label>
+                                <input type="text1" id="valdmes" name="validade" placeholder="Setembro">
+                                <div class="row">
+                                    <div class="col-50">
+                                        <label for="valdano">Validade(Ano)</label>
+                                        <input type="text1" id="valdano" name="validadeano" placeholder="2018">
+                                    </div>
+                                    <div class="col-50">
+                                        <label for="cvv">CVV</label>
+                                        <input type="text1" id="cvv" name="cvv" placeholder="352">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <label>
+                            <input type="checkbox" checked="checked" name="mesmoend"> Endereço de entrega igual ao cartão
+                        </label>
+                        <input type="submit" value="Finalizar Compra" class="btnv">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function () {
+                    this.classList.toggle("active1");
+                    var content = this.nextElementSibling;
+                    if (content.style.maxHeight) {
+                        content.style.maxHeight = null;
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                    }
+                });
+            }
+        </script>
+        <!-- JavaScript (Opcional) -->
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+        </script>
+    </body>
+</html>

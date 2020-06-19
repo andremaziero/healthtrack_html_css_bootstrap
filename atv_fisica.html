@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Health Track - Menu</title>
+  </head>
+  <body id="fundoatividade">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+        <div class="container">
+            <a class="navbar-brand h1 mb-0" href="menu.html">Health Track</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="inf_corporais.html">Informações Corporais</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="alimentação.html">Alimentação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="atv_fisica.html">Atividade Física</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Planos.html">Planos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <h1 id="textocor" class="text-center fonte-titulo texto-cor-especial pt-5">Inserindo as Atividades</h1><br>
+    </section>
+        <div id="interna" class="container-fluid">
+            <div class="row justify-content">
+                <div class="col-md-12"> 
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <button type="button" class="btn btn-primary">Inserir Atividade</button>
+                            <button type="button" class="btn btn-secondary">Excluir Atividade</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-auto">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" >Tempo Total: </span>
+                            <input type="text" class="form-control" style="width: 68px;" aria-label="Quantia" placeholder="Ex: 60">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-auto">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Total Kcal consumidas</span>
+                            <input type="text" class="form-control" style="width: 100px;" aria-label="Quantia" placeholder="Ex: 670">
+                            <span class="input-group-text">Kcal</span>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="interna" class="container">
+            <table class="table table-striped table-responsive">
+                <thead class="thead-light">
+                  <tr>
+                    <th class="text-center" scope="col"><input type="checkbox"></th>
+                    <th class="text-center" scope="col">ATIVIDADE</th>
+                    <th class="text-center" scope="col">DATA</th>
+                    <th class="text-center" scope="col">TEMPO(mins.)</th>
+                    <th class="text-center" scope="col">CALORIAS</th>
+                  </tr>
+                </thead>
+                <tbody class="table-primary">
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>    
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                  <button class="btn btn-outline-secondary border-0 dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Esporte</b> </button>
+                                  <div class="dropdown-menu">
+                                    <a class="dropdown-item text-center">Ciclismo</a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-center">Corrida</a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-center">Skate</a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-center">Surf</a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-center">Triatlo</a>
+                                  </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>                        
+                            <input id="formtcoluna" type="text" style="width: 120px;" class="form-control" aria-label="Quantia"  placeholder="Ex: xx/xx/xxxx">
+                        </td>
+                        <td>
+                            <input id="formtcoluna" type="text" style="width: 80px;" class="form-control" aria-label="Quantia"  placeholder="Ex: 30">
+                        </td>
+                        <td>
+                            <input id="formtcoluna" type="text" style="width: 80px;" class="form-control" aria-label="Quantia"  placeholder="Ex: 680">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                  <button class="btn btn-outline-secondary border-0 dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Esporte</b></button>
+                                  <div class="dropdown-menu">
+                                    <a class="dropdown-item text-center">Ciclismo</a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-center">Corrida</a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-center">Skate</a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-center">Surf</a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-center">Triatlo</a>
+                                  </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <input id="formtcoluna" type="text"  style="width: 120px;" class="form-control" aria-label="Quantia"  placeholder="Ex: xx/xx/xxxx">
+                        </td>
+                        <td>
+                            <input id="formtcoluna" type="text" style="width: 80px;"class="form-control" aria-label="Quantia"  placeholder="Ex: 30">
+                        </td>
+                        <td>
+                            <input id="formtcoluna" type="text" style="width: 80px;" class="form-control" aria-label="Quantia"  placeholder="Ex: 680">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                  <button class="btn btn-outline-secondary border-0 dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>sporte</b></button>
+                                  <div class="dropdown-menu">
+                                    <a class="dropdown-item text-center">Ciclismo</a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-center">Corrida</a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-center">Skate</a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-center">Surf</a>
+                                    <div role="separator" class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-center">Triatlo</a>
+                                  </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <input id="formtcoluna" type="text"  style="width: 120px;" class="form-control"  aria-label="Quantia"  placeholder="Ex: xx/xx/xxxx">
+                        </td>
+                        <td>
+                            <input id="formtcoluna" type="text"  style="width: 80px;" class="form-control" aria-label="Quantia"  placeholder="Ex: 30">
+                        </td>
+                        <td>
+                            <input id="formtcoluna" type="text" style="width: 80px;" class="form-control" aria-label="Quantia"  placeholder="Ex: 680">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

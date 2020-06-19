@@ -1,0 +1,252 @@
+#telafundo {
+    background-color: rgba(100, 79, 79, 0.904);
+    background-image: url(/html/HealthTrack/img/escalada.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#telalogin {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px rgba(230, 146, 21, 0.925);
+    opacity: 0.6;
+}
+#logintexto {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 46px;
+    background: -webkit-linear-gradient(rgb(240, 146, 5), rgb(96, 98, 243));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 4px 4px 4px rgba(224, 59, 67, 0.925);
+}
+#menutela {
+    background-color: slategrey;
+    background-image: url(../img/fundomenu.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#telacorporal {
+    background-color: rgb(230, 219, 219);
+    background-image: url(../img/peso_altura.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#larguraborda {
+    margin-right: 1px;
+    margin-left: 1px;
+    border-radius: 3px;
+}
+#larguracxa {
+    width: 150px;
+}
+#formtcoluna {
+    box-shadow: 1px 1px 2px #e4e4e4;    
+    background: #ffffff; 
+    border:1px solid #b1afaf;
+}
+#telafundoal {
+    background-color: rgb(153, 140, 108);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#textocor {
+    color:rgba(46, 46, 45, 0.925);
+}
+#ajustecaixa {
+    
+    margin-right: 1px;
+    margin-left: 15px;
+    border-radius: 3px;
+}
+#larguracxa {
+    width: 150px;
+}
+#caixainferior2 {
+    width: 200px;
+}
+#inserircaixa {
+    margin-left: 225px;
+}
+#telafundoal {
+    background-image: url(/html/HealthTrack/img/atividade.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fundoatividade {
+    background-image: url(../img/atividade.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#interna {
+    margin: 0 auto;
+    width: 50%; /* Valor da Largura */
+}
+.btn-google {
+    color: white;
+    background-color: #ea4335;
+}
+  
+  .btn-facebook {
+    color: white;
+    background-color: #3b5998;
+}
+.mudar{
+    font-size: 15px;
+    text-align: justify;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+header {
+    display: block;
+}
+.collapsible {
+    background-color: rgb(8, 65, 92);
+    color: goldenrod;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    margin-left: 25%;
+    border: none;
+    text-align: left;
+    outline: auto;
+    font-size: 15px;
+  }
+  
+  .active1, .collapsible:hover {
+    background-color: rgb(105, 28, 28);
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active1:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    width: 50%;
+    margin-left: 25%;
+    transition: max-height 0.2s ease-out;
+    background-color: #308fac;
+    text-align: center;
+  }
+  #planotela {
+    background-color: rgb(230, 219, 219);
+    background-image: url(../img/img1.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    font-family: Arial;
+    font-size: 17px;
+    padding: 8px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container1 {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text1] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btnv {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btnv:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+  
+  }
